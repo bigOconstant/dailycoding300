@@ -36,7 +36,7 @@ int main(){
   vector<pair<int,int>> voters_votes;
 
   
-  cout<<"Starting app"<<endl;
+  cout<<"Calculating vote total"<<endl;
   ifstream votes;
   std::string line;
   votes.open("votes.txt");
